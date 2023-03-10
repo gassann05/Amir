@@ -1,0 +1,713 @@
+.background_color_video_2 {
+    width: 100%;
+    min-width: 1220px;
+    height: 524px;
+    background-color: #ba9c69;
+    position: absolute;
+    z-index: -10;
+}
+.navigation_bar {
+    z-index: 10;
+}
+
+.navigation_bar_logo {// ---------------------------- Это логотип
+    width: 181px;
+    height: 91px;
+    display: inline-block;
+    z-index: 99;
+}
+
+.block_main_video_2 { //-------------1--------------------------- это oveeflow-hidden для видео
+    width: 700px;
+    height: 524px;
+    overflow: hidden;
+    position: absolute;
+    right: 5%;
+    z-index: -1;
+
+}
+
+.logo_video_svg {
+    height: 68px;
+    width: 68px;
+    // right: 43%;
+    // bottom: 30%;
+    // position: absolute;
+    transform: translateX(177px) translateY(227px);
+}
+
+.main_video_2 {//---------------------------------------------это видео
+    height: 524px;
+    position: absolute;
+    right: 10%;
+    z-index: -99;
+}
+
+.background_color_video {
+    height: 524px;
+    width: 100%;
+}
+
+//----------------------------------------------- Это Навигационная панель
+
+.navigation_bar {
+    padding: 0px 144px;
+}
+
+
+//---------------------------------------------------------------------Это блок с всплывающим меню
+
+
+
+.menu_div_main {
+    display: none;
+    position: relative;
+}
+
+.navigation_bar_block:hover .menu_div_main {
+    display: block;
+    position: relative;
+    
+}
+
+.menu_div_bar {
+    position: absolute; 
+    display: block;
+    transform: translateX(-40px);
+    width: 260px;
+    height: 150px;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: -60px;
+    padding-top: 4px;
+    margin-top: 8px;
+}
+
+.menu_ul_bar_2 {
+    position: absolute;
+    left: 20px;
+    content: "";
+    display: block;
+    width: 0;
+    margin: 0 auto;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 8px solid white;
+}
+
+.menu_li_bar {
+    line-height: 25.3px;
+}
+
+.menu_a_bar {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+.menu_a_bar:hover {
+    color: #ba9c69;
+    font-weight: 600;
+}
+
+.headhesive .menu_div_bar {
+    display: none;
+}
+
+.about_clinic_2 {//------------------------------------------Это отступ блока О клинике
+    margin-top: 12%;
+}
+
+//-------------------------------------------------------------------------------- Это блок  Пересадка волос в Header
+
+.hair_transplatation_main {
+    width: 600px;
+    // overflow: hidden;
+    margin-top: 110px;
+}
+
+.txt_hair_transplantation_flex {
+    display: flex;
+}
+
+.txt_hair_transplantation {
+    color: #ffffff;
+    font-size: 47px;
+    font-family: 'BooksellerBK_woff_2', Arial, sans-serif;
+    font-weight: 100;
+}
+
+.txt_hair_transplantation_txt {
+        color: #ffffff;
+        font-size: 26px;
+        font-family: 'Montserrat', Arial, sans-serif;
+        line-height: NaN;
+        font-weight: 400;
+        margin-bottom: 44px;
+}
+
+ .txt_hair_transplantation_txt_flex {
+    display: flex;
+    margin-bottom: 10px;
+ }
+
+ .survey_hair_transplantation_txt_background_white {
+    background-color: rgb(255, 255, 255, 0.9);
+    z-index: 0;
+    border-radius: 5px;
+    width: 137px;
+    margin-right: 17px;
+ }
+
+.survey_hair_transplantation_txt {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: NaN;
+    font-weight: 400;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #515845;
+    display: inline-block;
+    padding: 10px;
+    width: 137px;
+    text-align: center;
+}
+
+.survey_hair_transplantation_txt_2 {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: NaN;
+    font-weight: 400;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #ba9c69;
+    display: inline-block;
+    padding: 10px;
+    width: 261px;
+    text-align: center;
+    z-index: -0;
+}
+
+//--------------------------------------------------------------------- Это Tab мужчины и женшины
+
+.man_and_woman_tab {
+    margin-top: 100px;
+}
+
+.wrapper {
+    width: 1157px;
+    margin: 0 auto;
+}
+
+.tabs_triggers {
+    display: flex;
+    margin: 0 auto;
+}
+
+.tabs_triggers_iteams {
+    width: 579px;
+    padding: 14px 22px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ba9c69;
+}
+
+.tabs_triggers_iteams--active {
+    background-color: #ba9c69;
+    color: white;
+}
+
+
+.man_woman_img_svg_flex {
+    width: 1157px;
+    text-align: center;
+}
+
+.man_woman_img_svg_block {
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 93px;
+
+    color: #1b1b1b;
+    font-size: 16px;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.man_woman_img_svg_block:nth-child(1) {
+    margin-left: 0px;
+}
+
+.man_wonan_icons_svg {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 14px;
+}
+
+
+.tabs_content_iteams {
+    display: none;
+    height: 300px;
+    width: 1157px;
+    border: 1px solid #ba9c69;
+    position: relative;
+}
+
+.tabs_content_iteams--active {
+    display: block;
+}
+
+//-------------------------------------------------------------------------- Это блок МЕТОДЫ ПЕРЕСАДКИ ВОЛОС 
+
+.Hair_transplant_methods {
+    color: #1b1b1b;
+    font-size: 42px;
+    font-family: "BooksellerBK_woff_2", Arial, sans-serif;
+    text-align: center;
+    font-weight: 100;
+
+    margin-top: 150px;
+    margin-bottom: 42px;
+}
+
+.txt_icon_fue {
+    font-size: 18px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+.advantages_icon_2 {
+    width: 78px;
+    height: 78px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-bottom: 10px;
+}
+
+.advantages_txt_2 {
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-align: center;
+}
+
+
+//-----------------------------------------------------------------Все начинается с правельной диагностики блок 
+
+
+
+.txt_It_all_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.txt_It_all_block_1 {
+    width: 730px;
+}
+
+.txt_It_all_starts {
+    color: #1b1b1b;
+    font-size: 42px;
+    font-family: 'BooksellerBK_woff_2', Arial, sans-serif;
+    line-height: NaN;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.txt_It_all_starts_txt {
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: NaN;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 1.4;
+    width: 584px;
+}
+
+.more_hight_standards_2 {
+    font-family: "Montserrat", Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 10px;
+        letter-spacing: 1px;
+}
+
+.hight_standards_svg_2 {
+    width: 62px;
+}
+
+.txt_It_all_block_background {
+    width: 400px;
+    height: 300px;
+    background-color: #515845;
+    margin-left: 48px;
+    margin-bottom: 53px;
+}
+
+.txt_It_all_block_background_2 {
+    margin-left: 0px;
+    margin-right: 48px;
+    margin-bottom: 53px;
+}
+
+.txt_It_all_block_background_2 .It_all_starts_img {
+    margin-left: 8px;
+}
+
+.It_all_starts_img {
+    width: 392px;
+    height: 292px;
+}
+
+//------------------------------------------------- Это блок У нас работают профессионалы с многолетним опытом
+
+.jjj {
+    margin-top: 140px;
+}
+
+.team_of_specialists_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transform: scale(0.9);
+}
+
+
+.txt_It_all_starts_txt_2 {
+    color: #000000;
+    font-size: 22px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: NaN;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+.team_of_specialists_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 27px;
+}
+
+.team_of_specialists_name {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: NaN;
+    font-weight: 500;
+    width: 230px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.team_of_specialists_txt {
+    color: #232323;
+    font-size: 14px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: NaN;
+    font-weight: 400;
+    width: 210px;
+    height: 72px;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+.team_of_specialists_block_1 {
+    width: 260px;
+    text-align: center;
+    position: relative;
+}
+
+.box {
+    width: 271px;
+}
+
+//------------------------------------------------------------ Это блок МЕНЕДЖЕРЫ ПО РАБОТЕ С КЛИЕНТАМИ
+
+.team_of_specialists_block_3 {
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 57px;
+    margin-bottom: 150px;
+}
+
+//----------------------------------------------------------------  Это блок Резудьтаты
+
+.show_more_block_tventy_tventy_3 {
+    margin: 233px 0px 0px 172px;
+}
+
+//----------------------------------------------------------------- Это блок пройти опрос
+
+.making_an_appointment_2 {
+    background-color: #515845;
+    height: 447px;
+    width: 100%;
+    min-width: 1220px;
+    padding-top: 120px;
+}
+
+.take_a_survey_sng {
+    width: 168px;
+    height: 65px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.take_a_survey_txt {
+    color: #ffffff;
+    font-size: 42px;
+    font-family: 'BooksellerBK_woff_2', Arial, sans-serif;
+    line-height: NaN;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.to_the_survey_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.to_the_survey {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: NaN;
+    font-weight: 400;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #ba9c69;
+
+    width: 260px;
+    height: 55px;
+    text-align: center;
+    padding: 18px;
+   margin-left: 18px;
+
+   cursor: pointer;
+}
+
+//-------------------------------------------------это блок прайс
+
+.price_hair_block {
+    margin-top: 60px;
+}
+
+.price_hair_block_flex_boss {
+    display: flex;
+    justify-content:center
+}
+
+.price_hair_block_main_3 {
+        margin-left: 38px;
+}
+
+.price_hair_flex {
+    display: flex;
+    border-bottom: 1px solid black;
+    width: 570px;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+  
+}
+
+.price_hair_txt_2 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: NaN;
+    font-weight: 500;
+}
+
+ .price_hair_span {
+    font-weight: 700;
+ }
+
+ .price_hair_block_txt_boss {
+    margin-top: -33px;
+ }
+
+ .price_hair_block_txt_boss {
+    margin-left: 38px;
+ }
+
+ .price_hair_block_txt {
+    color: #000000;
+    font-size: 22px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: NaN;
+    font-weight: 700;
+ }
+
+ .price_hair_block_txt_2 {
+        color: #000000;
+        font-size: 22px;
+        font-family: 'Montserrat', Arial, sans-serif;
+        line-height: NaN;
+        text-decoration:line-through;
+ }
+
+ //----------------------------------------------------------------------Это акардион
+
+ .acardion-iteam {
+    position: relative;
+    margin-bottom: 20px;
+ }
+
+ .accordion-iteam_input {
+     position: absolute;
+     top: 0;
+     left: 0;
+     opacity: 0;
+ }
+
+ .accordion-iteam_trigger {
+     display: block;
+     padding: 20px;
+     border: 1px solid rgba(209, 207, 207, 0.5);
+     position: relative;
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+     border-radius: 15px;
+     width: 1220px;
+     text-transform: uppercase;
+     font-size: 15px;
+     font-weight: bold;
+     color: rgb(120, 116, 116);
+     z-index: 0;
+     background-color: white;
+     margin: 0 auto;
+ }
+
+ .accordion-iteam_content {
+     padding: 20px;
+     border: 1px solid rgba(209, 207, 207, 0.5);
+     border-bottom-left-radius: 15px;
+     border-bottom-right-radius: 15px;
+     border-top: none;
+     display: none;
+     margin-top: -11px;
+     padding-top: 27px;
+     border-top: none;
+     width: 1220px;
+     line-height: 24px;
+     background-color: white;
+     margin: 0 auto;
+ }
+
+ /* ----------------------------------------------------------------------------это акардионические линии -------------------------------- */
+ .accordion-iteam_input:checked~.accordion-iteam_trigger::after {
+
+     position: absolute;
+     display: block;
+     content: "";
+     width: 8px;
+     height: 1px;
+     background-color: #ff548c;
+     transform:  rotate(-45deg);
+     border-radius: 15px;
+     z-index: 2;
+
+ }
+
+  .accordion-iteam_trigger::after {
+      position: absolute;
+      display: block;
+      content: "";
+      width: 8px;
+      height: 1px;
+      background-color: #ff548c;
+      right: 15px;
+      top: 50%;
+      border-radius: 15px;
+      transform: rotate(-135deg);
+      transition: 1s ease-in-out linear;
+      z-index: 2;
+      transition: 0.2s;
+  }
+
+ .accordion-iteam_input:checked~.accordion-iteam_trigger::before {
+     position: absolute;
+     display: block;
+     content: "";
+     width: 8px;
+     height: 1px;
+     background-color: #ff548c;
+     transform:  rotate(45deg);
+     border-radius: 15px;
+     z-index: 2;
+
+ }
+
+ .accordion-iteam_trigger::before {
+     position: absolute;
+     display: block;
+     content: "";
+     width: 8px;
+     height: 1px;
+     background-color: #ff548c;
+     right: 11px;
+     top: 50%;
+     border-radius: 15px;
+     transform: rotate(-45deg);
+     z-index: 2;
+     transition: 0.2s;
+ }
+
+
+ /* ------------------------------------------------------------это background для стрелок акардиона-------------------------------------- */
+
+ .span_acardion::before {
+     content: "";
+     display: block;
+     position: absolute;
+     right: 7px;
+     top: 50%;
+     transform: translateY(-50%);
+     width: 20px;
+     height: 20px;
+     background-color: #eee;
+     border-radius: 50%;
+     z-index: -1;
+ }
+
+ .span_acardion::after {
+     content: "";
+     display: block;
+     position: absolute;
+     right: 7px;
+     top: 50%;
+     transform: translateY(-50%);
+     width: 20px;
+     height: 20px;
+     background-color: #eee;
+     border-radius: 50%;
+     z-index: 1;
+ }
+
+ //-------------------------------------------------------------Это display-flex в accordion-iteam_content а сверху чистый акардион
+
+ .accordion-iteam_content_txt_flex {
+    display: flex;
+ }
+
+ i.circle_font_sixe {
+    font-size: 5px;
+    margin-right: 10px;
+ }

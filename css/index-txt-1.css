@@ -1,0 +1,110 @@
+.Our_services_block_2_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.making_an_appointment_2 {
+  padding: 0px;
+  height: 104px;
+  background-color: #f4f4e8;
+  text-align: left;
+  position: relative;
+  padding-top: 25px;
+  margin-bottom: 95px;
+}
+
+.txt_about_clinick_txt_clinic_mesenger {
+  width: 158px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.Our_services_block_2 .txt_about_clinick_txt_clinic_mesenger {
+  margin: 0px;
+  margin-left: 180px;
+}
+
+.Our_services_block_2 .txt_about_clinick_txt_clinic_mesenger {
+  width: 220px;
+  margin-right: 100px;
+}
+
+.txt_about_clinick_txt_clinic_mesenger_2 a {
+  padding: 20px;
+}
+
+.txt_about_clinick_txt_clinic_mesenger_2_3 a {
+  padding: 20px 57px;
+}
+
+.txt_about_clinick_txt_clinic_mesenger_2_2 {
+  width: 158px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  position: relative;
+  background-color: #515845;
+  margin-left: 180px;
+}
+
+.txt_about_clinick_txt_clinic_mesenger_2_2:hover {
+  background-color: #ba9c69;
+}
+
+.block_use_txt {
+  width: 760px;
+  margin: 0 auto;
+}
+
+.block_use_block {
+  font-family: "BooksellerBK", Arial, sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 34px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.block_use_block_2 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  margin-bottom: 19px;
+}
+
+.block_use_block_3 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  margin-bottom: 19px;
+}
+
+.block_use_block_4_boss {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.block_use_block_4 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.block_use_block_5 {
+  font: 13px "BooksellerBK_woff_2";
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
