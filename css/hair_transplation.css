@@ -73,6 +73,7 @@
   margin-left: -60px;
   padding-top: 4px;
   margin-top: 8px;
+  z-index: 100;
 }
 
 .menu_ul_bar_2 {
@@ -96,6 +97,10 @@
   font-size: 12px;
   font-weight: 500;
   font-family: "Montserrat";
+}
+
+.color_orang {
+  color: #ba9c69;
 }
 
 .menu_a_bar:hover {

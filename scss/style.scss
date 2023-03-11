@@ -67,14 +67,14 @@ a {
     position: fixed;
     top: -30px;
     left: 50%;
-    margin-left: -230px;
+    transform: translateX(-280px);
     z-index: 150;
     display: none;
 }
 //------------------------------------------------Это  стили исчезающего блока 
 .graft_quality {
     width: 560px;
-    min-height: 725px;
+    min-height: 325px;
     background-color: white;
     transform: scale(0.8);
     margin-top: 10px;
@@ -112,7 +112,7 @@ a {
     position: fixed;
     top: -30px;
     left: 50%;
-    margin-left: -230px;
+    transform: translateX(-280px);
     z-index: 150;
     display: none;
 }
@@ -133,7 +133,7 @@ a {
     position: fixed;
     top: -30px;
     left: 50%;
-    margin-left: -230px;
+    transform: translateX(-280px);
     z-index: 150;
     display: none;
 }
@@ -154,7 +154,7 @@ a {
     position: fixed;
     top: -30px;
     left: 50%;
-    margin-left: -230px;
+    transform: translateX(-280px);
     z-index: 150;
     display: none;
 }
@@ -162,18 +162,27 @@ a {
 //--------------------------------------------------   
 
 
+.main_video_boss {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    height: 854px;
+    position: absolute;
+    z-index: -1;
+    min-width: 1220px;
+}
 
 .main_video {
-    width: 100%;
-    min-width: 1200px;
-    height: 854px;
+    width: 1519px;
     position: absolute;
     z-index: -1;
 }
 
 .container {
     width: 100%;
-    min-width: 1200px;
+    min-width: 1220px;
+    height: 120%;
+    overflow: hidden;
     padding-left: 1rem;
     padding-right: 1rem;
     margin: 0 auto;
@@ -181,16 +190,18 @@ a {
 
 .container_1519 {
     width: 100%;
-    min-width: 1200px;
+    min-width: 1220px;
 }
 
 .background_color_video {
     background: rgba(0, 0, 0, 0.3);
+    // height: 854px;
     height: 854px;
     width: 100%;
     min-width: 1220px;
     position: absolute;
     z-index: -1;
+    // padding-top: 200px;
 }
 
 .navigation_bar {
@@ -270,7 +281,7 @@ a {
     opacity: 0.5;
     animation: down_bot 3s ease-in-out infinite;
     transition: 3s linear;
-    position: absolute;
+    // position: absolute;
     left: 50%;
 }
 
@@ -284,7 +295,7 @@ a {
 
 .about_clinic {
     margin: 0 auto;
-    margin-top: 20%;
+    margin-top: 10%;
     position: relative;
 }
 
@@ -537,7 +548,8 @@ a {
 }
 
 .txt_about_clinick_txt_clinic_mesenger a {
-    color: white
+    color: white;
+    padding: 20px 87px;
 }
 
 .Our_services_block_2 .txt_about_clinick_txt_clinic_mesenger:hover {
