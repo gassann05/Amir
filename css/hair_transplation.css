@@ -428,6 +428,7 @@
 
 .box {
   width: 271px;
+  z-index: 10;
 }
 
 .team_of_specialists_block_3 {
