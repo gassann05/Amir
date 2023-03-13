@@ -1,0 +1,84 @@
+img.img_surgery {
+    width: 780px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    height: 620px;
+    display: block;
+}
+
+.surgery_boss .trichology_txt_hair_transplantation_txt {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.trichology_block_1 {
+    margin-left: 100px;
+}
+
+.surgery_boss { //-------------------------------- это блок Записаться на прием
+    margin-bottom: 50px;
+}
+
+//------------------------------------------- МЫ ПРЕДОСТАВЛЯЕМ УСЛУГИ ПО ХИРУРГИИ:
+
+.we_provide_services_trichology_flex {
+    justify-content: center;
+    margin-bottom: 136px;
+
+}
+
+.we_provide_services_trichology_block {
+    margin-left: 45px;
+}
+
+//----------------------------------------------- это блок Лабиопластика выполняется с целью
+
+.trihology_img_block {
+    margin-top: 80px;
+}
+
+//----------------------------------------------------- Это кнопка прайс
+
+.surgery_prais {
+    margin-top: 60px;
+}
+
+.we_provide_services_trichology_block-a {
+    width: 260px;
+    margin-bottom: -100px;
+}
+
+//------------------------------------------------------------- Это блок  О процедуре 
+
+.txt_It_all_flex {
+    margin-top: 0px
+}
+
+//---------------------------------------------------------------------- это блок ЛАБИОПЛАСТИКА
+
+.trichology_background_plazmoterapia {
+    margin-bottom: 0px;
+}
+
+//=-------------------------------------------------------------------- это блок  Лабиопластика выполняется с целью
+
+.plazmo_terapia_txt {
+    margin-top: 50px;
+}
+
+//-----------------------------------------------------------
+
+.price_hair_flex {
+    align-items: center;
+}
+
+.price_hair_txt_2 {
+    width: 350px;
+}
+
+.we_provide_services_trichology_block-a:hover {
+    background-color: #515845;
+}

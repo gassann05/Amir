@@ -1,0 +1,73 @@
+img.img_surgery {
+  width: 780px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  height: 620px;
+  display: block;
+}
+
+.surgery_boss .trichology_txt_hair_transplantation_txt {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.trichology_block_1 {
+  margin-left: 100px;
+}
+
+.surgery_boss {
+  margin-bottom: 50px;
+}
+
+.we_provide_services_trichology_flex {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 136px;
+}
+
+.we_provide_services_trichology_block {
+  margin-left: 45px;
+}
+
+.trihology_img_block {
+  margin-top: 80px;
+}
+
+.surgery_prais {
+  margin-top: 60px;
+}
+
+.we_provide_services_trichology_block-a {
+  width: 260px;
+  margin-bottom: -100px;
+}
+
+.txt_It_all_flex {
+  margin-top: 0px;
+}
+
+.trichology_background_plazmoterapia {
+  margin-bottom: 0px;
+}
+
+.plazmo_terapia_txt {
+  margin-top: 50px;
+}
+
+.price_hair_flex {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price_hair_txt_2 {
+  width: 350px;
+}
+
+.we_provide_services_trichology_block-a:hover {
+  background-color: #515845;
+}
