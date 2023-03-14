@@ -176,13 +176,15 @@ a {
     width: 1519px;
     position: absolute;
     z-index: -1;
+    transform: translateX(50%);
+    margin-left: -759px;
 }
 
 .container {
     width: 100%;
     min-width: 1220px;
-    height: 120%;
     overflow: hidden;
+    height: 120%;
     padding-left: 1rem;
     padding-right: 1rem;
     margin: 0 auto;
@@ -193,14 +195,22 @@ a {
     min-width: 1220px;
 }
 
+.con {
+    width: 1519px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 .background_color_video {
     background: rgba(0, 0, 0, 0.3);
     // height: 854px;
     height: 854px;
-    width: 100%;
-    min-width: 1220px;
+    width: 1519px;
+    min-width: 100px;
     position: absolute;
     z-index: -1;
+    transform: translateX(50%);
+    margin-left: -759px;
     // padding-top: 200px;
 }
 
@@ -789,8 +799,8 @@ a {
 .making_an_appointment {
     background-color: #ba9c69;
     height: 700px;
-    width: 100%;
-    min-width: 1220px;
+    width: 1519px;
+    margin: 0 auto;
 }
 
 .making_an_appointment_svg_img {
@@ -987,8 +997,8 @@ a {
 
 .footer_background {
     background-color: #515845;
-    width: 100%;
-    min-width: 1220px;
+    width: 1519px;
+    margin: 0 auto;
 }
 
 .contacts_flex {
@@ -1269,6 +1279,18 @@ img.hidden_form_background_img {
 
 @media screen and (max-width: 820px) {
 
+    .background_color_video {
+        width: 1323px;
+    }
+
+    .making_an_appointment {
+        width: 1220px;
+    }
+
+    .footer_background {
+        width: 1220px;
+    }
+
     //------------------------------------------------ это блок О КЛИНИКЕ
 
     .certificate_img {
@@ -1320,4 +1342,16 @@ img.hidden_form_background_img {
     }
 }
 
+@media screen and (max-width: 1220px) {
+    .background_color_video {
+            width: 1323px;
+        }
 
+        .making_an_appointment {
+            width: 1220px;
+        }
+
+        .footer_background {
+            width: 1220px;
+        }
+}
