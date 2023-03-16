@@ -631,7 +631,6 @@ progress {
 
 @media (min-width:576px) {
 
-  .container,
   .container-sm {
     max-width: 540px
   }
@@ -639,7 +638,6 @@ progress {
 
 @media (min-width:768px) {
 
-  .container,
   .container-md,
   .container-sm {
     max-width: 720px
@@ -648,7 +646,6 @@ progress {
 
 @media (min-width:992px) {
 
-  .container,
   .container-lg,
   .container-md,
   .container-sm {
@@ -658,7 +655,6 @@ progress {
 
 @media (min-width:1200px) {
 
-  .container,
   .container-lg,
   .container-md,
   .container-sm,
@@ -669,7 +665,6 @@ progress {
 
 @media (min-width:1400px) {
 
-  .container,
   .container-lg,
   .container-md,
   .container-sm,
@@ -4466,7 +4461,7 @@ fieldset:disabled .btn {
   padding-bottom: .5rem
 }
 
-.navbar>.container,
+.navbar>
 .navbar>.container-fluid,
 .navbar>.container-lg,
 .navbar>.container-md,

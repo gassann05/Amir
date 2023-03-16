@@ -179,8 +179,7 @@ a {
 }
 
 .container {
-  width: 100%;
-  min-width: 1220px;
+  width: 1220px;
   overflow: hidden;
   height: 120%;
   padding-left: 1rem;
@@ -190,11 +189,10 @@ a {
 
 .container_1519 {
   width: 100%;
-  min-width: 1220px;
 }
 
 .con {
-  width: 1519px;
+  width: 1520px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -520,14 +518,12 @@ a {
   width: 124px;
 }
 
-.certificate_2:nth-child(1n) {
-  margin-left: 47px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
 .certificate_3 {
   width: 124px;
-  margin-left: 40.5px;
+}
+
+.certificate_2:nth-child(1n) {
+  margin-left: 47px;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -720,6 +716,8 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .advantages_block {
@@ -1309,38 +1307,199 @@ img.hidden_form_background_img {
   color: white;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1519px) {
   .background_color_video {
-    width: 1323px;
+    width: 1402px;
+  }
+  .main_video_boss {
+    width: 2124px;
+    overflow: hidden;
+    margin-left: -781px;
+  }
+  .main_video {
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: cover;
+    width: 1687px;
+    height: 100%;
+    overflow: hidden;
+    margin-left: -122px;
   }
   .making_an_appointment {
-    width: 1220px;
+    width: 1341px;
   }
   .footer_background {
+    width: 1341px;
+  }
+  .container {
     width: 1220px;
   }
+  .con {
+    width: 1295px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .background_color_video {
+    width: 1314px;
+  }
+  .main_video_boss {
+    width: 1991px;
+    overflow: hidden;
+    margin-left: -781px;
+  }
+  .main_video {
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: cover;
+    width: 1416px;
+    height: 100%;
+    overflow: hidden;
+    margin-left: -122px;
+  }
+  .making_an_appointment {
+    width: 1211px;
+  }
+  .footer_background {
+    width: 1205px;
+  }
+  .container {
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .background_color_video {
+    width: 128.4%;
+  }
+  .making_an_appointment {
+    width: 100%;
+  }
+  .footer_background {
+    width: 100%;
+  }
+  .con {
+    width: 100%;
+  }
+  .main_video_boss {
+    width: 100%;
+    overflow: hidden;
+    margin-left: -400px;
+  }
+  .main_video {
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: cover;
+    width: 86%;
+    height: 100%;
+    overflow: hidden;
+    margin-left: -122px;
+  }
+  .container_1519 {
+    width: 100%;
+  }
+  .hair_transplantation_txt {
+    text-align: center;
+  }
+  .navigation_bar {
+    padding: 0px;
+    width: 64%;
+    margin: 0px;
+  }
+  .headhesive nav {
+    margin-left: 40px;
+  }
+  .certificate_3 {
+    width: 127px;
+    -webkit-transform: translateY(-19px) translateX(13px);
+            transform: translateY(-19px) translateX(13px);
+  }
+  .certificate {
+    margin-right: 16px;
+  }
+  .Our_services_2 {
+    text-align: center;
+  }
+  .navigation_bar_nav {
+    width: 100%;
+  }
+  .gass {
+    width: 100%;
+    margin: 0px;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
   .certificate_img {
-    margin-left: 150px;
-    margin-left: 231px;
+    margin-left: 0px;
+    margin: 0px;
+    width: 100%;
+    text-align: left;
+    margin-left: 41px;
+    margin-top: 35px;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
   }
   .about_clinic_flex {
+    width: 810px;
     display: block;
-    margin-left: 150px;
+    margin-left: 0px;
   }
   .about_clinic_img_flex {
     margin: -255px 0px 0px 342px;
     display: block;
   }
   .certificate_2:nth-child(1n) {
+    width: 127px;
+    -webkit-transform: translateY(-19px);
+            transform: translateY(-19px);
     margin-left: 0px;
   }
+  .Our_services_main {
+    margin-left: 0px;
+  }
+  .Our_services_flex {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 103%;
+  }
   .Our_services_block {
-    width: 40%;
+    width: 46%;
+    min-height: 424px;
+  }
+  .Our_services_txt {
+    font-size: 34px;
+    margin-bottom: 50px;
+  }
+  .icon_img_our_services {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 70px;
+  }
+  .icon_img_our_services_2 {
+    width: 170px;
+    margin-bottom: 60px;
+  }
+  .txt_about_clinick_txt_clinic_mesenger {
+    width: 315px;
+    height: 69px;
+    font-size: 18px;
+  }
+  .txt_about_clinick_txt_clinic_mesenger a {
+    padding: 5%;
+  }
+  .txt_about_clinick_txt_clinic_mesenger_2 {
+    -webkit-transform: translateY(88%);
+            transform: translateY(88%);
+  }
+  .icon_img_our {
+    -webkit-transform: translateY(60%) translateX(12%);
+            transform: translateY(60%) translateX(12%);
   }
   .befor_after_img {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
   }
   .box_display_none_media_screen {
     display: none;
@@ -1353,17 +1512,119 @@ img.hidden_form_background_img {
     bottom: -100px;
   }
   .box {
-    width: 500px;
+    width: 380px;
   }
-}
-@media screen and (max-width: 1220px) {
-  .background_color_video {
-    width: 1323px;
+  .advantages_flex {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0px;
   }
-  .making_an_appointment {
-    width: 1220px;
+  .advantages_block {
+    width: 308px;
+    margin-bottom: 0px;
   }
-  .footer_background {
-    width: 1220px;
+  .advantages_txt {
+    width: 308px;
+  }
+  .advantages_icon {
+    width: 170px;
+    height: 170px;
+  }
+  .hight_standards_flex {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 690px;
+  }
+  .hight_standards_txt {
+    width: 333px;
+  }
+  .hight_standards_txt_block_1 {
+    font-size: 27px;
+  }
+  .hight_standards_txt_block_2 {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .advantages_txt {
+    font-size: 21px;
+  }
+  .HIGH_STANDARDS_OF_OUR_CLINIC {
+    margin: 0px;
+    margin-bottom: 100px;
+    width: 100%;
+    font-size: 56px;
+  }
+  .background_hight_standards {
+    width: 800px;
+    height: 325px;
+  }
+  .hight_standards_img {
+    width: 307px;
+    height: 407px;
+  }
+  .hight_standards_block_boss_flex {
+    margin-left: 0px;
+  }
+  .hight_standards_block_boss_flex {
+    display: block;
+  }
+  .hight_standards_block_2 {
+    margin: 0px;
+  }
+  .helpful_information_flex {
+    display: block;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin-left: 0px;
+  }
+  .helpful_information_block_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .helpful_information_block_3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .helpful_information_block_2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .helpful_information_img_2 {
+    width: 287px;
+    height: 294px;
+  }
+  .helpful_information_txt_absolute .helpful_information_txt {
+    -webkit-transform: none;
+            transform: none;
+  }
+  .helpful_information_img_2 {
+    position: relative;
+  }
+  .helpful_information_flex {
+    margin: 0 auto;
+    width: 73%;
+  }
+  .contacts_block_3 {
+    display: none;
+  }
+  .contacts_address_block_2 {
+    display: none;
+  }
+  .contacts_address_block_3 {
+    display: none;
+  }
+  .contacts_address_block_gas_2 {
+    width: 230px;
+  }
+  .contacts_address_block_gas_1 {
+    width: 230px;
   }
 }
